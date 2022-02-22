@@ -1,8 +1,7 @@
 #Curso Tecnico de Informatica
 #Autor: Caio Nascimento
-#Data inicio: 28/10/2021
-#Data Termino: 28/10/2021
-#Atividade 003: Exercicio I = Tabuada de mutiplicação.
+#Data inicio: 21/02/2022
+#Data Termino: 21/02/2022
 
 from ast import Break, While
 import os
