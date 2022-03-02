@@ -1,0 +1,24 @@
+#Curso Tecnico de Informatica
+#Autor: Caio Nascimento
+#Data inicio: 04/11/2021
+#Data Termino: 04/11/2021
+
+print('-'*50)
+print('PROGRAMA PARA CALCULAR PASSAGEM')
+print('='*50)
+
+#Entrada de Dados
+km = float(input('Informe a distância em km: '))
+
+#Cálculos e Condicionais
+preço1 = km * .70
+preço2 = km * .40
+
+if (km > 0 and km <= 200):
+    print(f'Sua passagem va custar R${preço1:.2f}')
+elif (km > 200):
+    print(f'Sua passagem vai custar R${preço2:.2f}')
+else:
+    print('Km inválido!')
+
+print('-'*50)
